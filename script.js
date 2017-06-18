@@ -34,7 +34,7 @@ function update() {
 
     if(y < 0 || y > HEIGHT){
         console.log(message);
-        spdX = -spdY;
+        spdY = -spdY;
     }
 
     //enemy
@@ -49,6 +49,6 @@ function update() {
 
     if(enemy_y < 0 || enemy_y > HEIGHT){
         console.log(message);
-        enemy_spdX = -enemy_spdY;
+        enemy_spdY = -enemy_spdY;
     }
 }
